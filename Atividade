@@ -48,6 +48,24 @@ func main() {
 	fmt.Println("O seu iMC é", y/(x*x))
 }
 
+Algoritimo 4º sequencial:
+
+package main
+
+import "fmt"
+
+func main() {
+	var x float64
+	var y float64
+	var o float64
+	fmt.Print("Digite o 1º número real:")
+	fmt.Scan(&x)
+	fmt.Print("Digite o 2º número real:")
+	fmt.Scan(&y)
+	fmt.Print("Digite o 3º número real:")
+	fmt.Scan(&o)
+	fmt.Println("a média ponderada é ", (x*2)+(y*3)+(o*5)/(10))
+}
 
 Algoritimo 1º seleção:
 
