@@ -17,6 +17,38 @@ func main() {
 	fmt.Println("A soma dos números que você digitou é", x+y+p)
 }
 
+Algoritimo 2º sequencial:
+
+package main
+
+import "fmt"
+
+func main() {
+	var x int
+	fmt.Print("Digite um número")
+	fmt.Scan(&x)
+	fmt.Println("o dobro do número escolhido é", x*2)
+	fmt.Println("o triplo do número escolhido é", x*3)
+	fmt.Println("o quadruplo do número escolhido é", x*4)
+
+}
+
+Algoritimo 3º sequencial:
+package main
+
+import "fmt"
+
+func main() {
+	var x float64
+	var y float64
+	fmt.Print("Digite sua altura ")
+	fmt.Scan(&x)
+	fmt.Print("Digite seu peso ")
+	fmt.Scan(&y)
+	fmt.Println("O seu iMC é", y/(x*x))
+}
+
+
 Algoritimo 1º seleção:
 
 package main
