@@ -106,6 +106,49 @@ func main() {
 	fmt.Println("O sucessor e antecessor desse número são respectivamente", x-1, "e", x+1)
 }
 
+Algoritimo 8º sequencial:
+
+package main
+
+import "fmt"
+
+func main() {
+	var x int64
+	var y int64
+	fmt.Print("Digite Os dias trabalhados! ")
+	fmt.Scan(&x)
+	fmt.Print("Digite o salário em dias! ")
+	fmt.Scan(&y)
+	fmt.Println("O salario mensal é de: ", x*y)
+}
+
+Algoritimo 9º sequencial:
+
+package main
+
+import "fmt"
+
+func main() {
+	var x float64
+	fmt.Print("Digite o valor de um produto! ")
+	fmt.Scan(&x)
+	fmt.Println("O desconto do produto é de 10%, dando: ", x*0.2)
+
+}
+
+Algoritimo 10º sequencial:
+
+package main
+
+import "fmt"
+
+func main() {
+	var x float64
+	fmt.Print("Digite seu peso! ")
+	fmt.Scan(&x)
+	fmt.Println("O seu peso em libras é: ", x*2.20462262)
+}
+
 Algoritimo 1º seleção:
 
 package main
