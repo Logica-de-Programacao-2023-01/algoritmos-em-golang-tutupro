@@ -1,1 +1,18 @@
+Algoritimo 1º sequencial
 
+package main
+
+import "fmt"
+
+func main() {
+	var x int
+	var y int
+	var p int
+	fmt.Print("Digite o 1º número")
+	fmt.Scan(x)
+	fmt.Print("Digite o 2º número")
+	fmt.Scan(y)
+	fmt.Print("Digite o 3º número")
+	fmt.Scan(p)
+	fmt.Println("A soma dos números que você digitou é", x+y+p)
+}
