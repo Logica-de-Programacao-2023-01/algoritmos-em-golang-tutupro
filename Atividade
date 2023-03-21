@@ -67,7 +67,7 @@ func main() {
 	fmt.Println("a média ponderada é ", (x*2)+(y*3)+(o*5)/(10))
 }
 
-Algoritimo 5º em sequencia:
+Algoritimo 5º em sequencial:
 
 package main
 
@@ -78,6 +78,32 @@ func main() {
 	fmt.Print("Digite a sua idade!")
 	fmt.Scan(&x)
 	fmt.Println("Sua idade em dias é", x*365)
+}
+
+Algoritimo 6º sequencial:
+
+package main
+
+import "fmt"
+
+func main() {
+	var x float64
+	fmt.Print("Digite o salario de um funcionário: ")
+	fmt.Scan(&x)
+	fmt.Println("Seu salario com um aumento de 15% é ", x*0.15+x)
+}
+
+Atividade 7º sequencial:
+
+package main
+
+import "fmt"
+
+func main() {
+	var x int
+	fmt.Print("Digite um número inteiro: ")
+	fmt.Scan(&x)
+	fmt.Println("O sucessor e antecessor desse número são respectivamente", x-1, "e", x+1)
 }
 
 Algoritimo 1º seleção:
