@@ -212,6 +212,33 @@ func main() {
 
 }
 
+Algoritimo 4º seleção:
+
+package main
+
+import "fmt"
+
+func main() {
+	var x float64
+	var y float64
+	var z string
+	fmt.Print("Digite sua altura! ")
+	fmt.Scan(&x)
+	fmt.Print("Digite seu peso! ")
+	fmt.Scan(&y)
+	fmt.Print("Digite o seu sexo! ")
+	fmt.Scan(&z)
+	fmt.Println("O seu iMC é", y/(x*x))
+	if y/(x*x) <= 25 {
+		fmt.Println("O seu peso é ideal")
+	} else {
+		fmt.Println("Você está acima do peso")
+	}
+
+}
+
+Algoritimo 5º seleção:
+
 Algoritimo 1º repetição:
 
 package main
