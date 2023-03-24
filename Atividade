@@ -324,3 +324,33 @@ func main() {
 	}
 }
 
+Algoritimo 4º repetição:
+
+package main
+
+import "fmt"
+
+func main() {
+	var i int64
+	for i = 0; i <= 30; i++ {
+		if i%3 == 0 {
+			fmt.Println("Os números multiplos de 3 até 30 são:", i)
+		}
+	}
+}
+
+Algoritimo 5º repetição:
+
+package main
+
+import "fmt"
+
+func main() {
+	var i int64
+	for i = 10; i <= 0; i-- {
+		fmt.Println("O número é", i)
+	}
+}
+
+Algoritimo 6º repetição:
+
