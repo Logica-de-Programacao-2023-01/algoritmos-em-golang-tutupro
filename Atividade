@@ -237,7 +237,49 @@ func main() {
 
 }
 
-Algoritimo 5º seleção:
+Algoritimo 6º seleção:
+
+package main
+
+import "fmt"
+
+func main() {
+	var x int64
+	var y int64
+	fmt.Print("Digite um número! ")
+	fmt.Scan(&x)
+	fmt.Print("Digite outro número! ")
+	fmt.Scan(&y)
+	fmt.Println("a multiplicação entre seus números é de: ", x*y)
+	if x*y > 0 {
+		fmt.Println("Seu número é positivo")
+	} else {
+		fmt.Println("Seu número é negativo")
+	}
+
+}
+
+Algoritimo 7º seleção:
+
+package main
+
+import "fmt"
+
+func main() {
+	var x float64
+	fmt.Print("Digite o seu salário! ")
+	fmt.Scan(&x)
+	if x < 1000 {
+		fmt.Println("Você receberá um aumento de salario de 10% acrecentando: ", x*0.1)
+	} else {
+		fmt.Println("Você receberá um aumento de salario de 5% acrecentando:", x*0.05)
+	}
+
+}
+
+Algoritimo 8º seleção:
+
+
 
 Algoritimo 1º repetição:
 
